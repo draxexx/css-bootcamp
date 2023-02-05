@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  border: 0;
+  /* for example, if we make the div width 400px, and 10px padding */
+  /* with border-box, the size of the div will be 380px, because it will have 10px padding on its both sides */
+  /* with content-box, the size of the div will be 400px, and total space it will take 420px with the paddings of the sides */
+  box-sizing: border-box;
+}
+
+h1 {
+  border: 2px dashed red;
+  /* percentage relatives its parent size */
+  width: 50%;
+  font-size: 3rem;
+  /* 3rem*0.5 */
+  padding: 0.5em;
+  /* outside of the border */
+  outline: 4px solid blue;
+  /* push the outline 5px away from the border */
+  outline-offset: 5px;
+}
+
+.circle {
+  /* auto will center horizontally */
+  /* we can't apply auto vertically */
+  margin: 3rem auto;
+  background-color: gold;
+  width: 100px;
+  height: 100px;
+  border: 2px solid #000;
+  /* always make radius half of the width to make it circle */
+  border-radius: 50%;
+  outline: 2px solid red;
+  outline-offset: 0.25rem;
+}

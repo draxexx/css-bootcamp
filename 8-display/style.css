@@ -1,0 +1,22 @@
+body {
+  font-size: 2rem;
+}
+
+main {
+  background-color: aqua;
+}
+
+/* block level elements take parent space, default has 100% width */
+/* also takes margin, padding */
+/* block elements creates new lines, stack top of each other */
+p {
+  background-color: lightgray;
+}
+
+/* inline elements can't take margin, height */
+.opposite {
+  /* display: inline-block => acts like a block element */
+  /* display: inline-block; */
+  background-color: #333;
+  color: whitesmoke;
+}

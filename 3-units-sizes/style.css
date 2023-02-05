@@ -1,0 +1,40 @@
+/* remove all default spaces */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+}
+
+header {
+  width: 100%;
+}
+
+h1 {
+  border: 2px dashed red;
+  /* percentage relatives its parent size */
+  width: 50%;
+  font-size: 3rem;
+  /* 3rem*0.5 */
+  padding: 0.5em;
+}
+
+main {
+  /* rem => root element size */
+  /* root element default size 16px, so 1rem = 16px */
+  font-size: 1rem;
+  /* 50% of viewport width */
+  width: 50vw;
+  background-color: skyblue;
+}
+
+p {
+  /* em => parent element size */
+  /* parent element size 1rem, so 2em = 2*1rem */
+  font-size: 2em;
+  /* max 40 characters width */
+  width: 40ch;
+}

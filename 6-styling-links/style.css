@@ -1,0 +1,31 @@
+body {
+  padding: 10%;
+  font-size: 2rem;
+}
+
+a {
+  /* remove default underline from the link */
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* if link has visited */
+a:visited {
+  color: purple;
+}
+
+/* hover should be writed after visited, otherwise visited will override it */
+a:hover,
+/* if the user pressing tab on the page, focus CSS will be work on the link */
+a:focus {
+  color: dodgerblue;
+}
+
+/* if we click the link */
+a:active {
+  color: red;
+}
+
+::marker {
+  color: aqua;
+}

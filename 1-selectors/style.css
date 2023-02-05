@@ -1,0 +1,38 @@
+/* select everything on the page */
+* {
+  font-family: monospace;
+}
+
+html {
+  font-size: 22px;
+}
+
+/* select both h1 and h2 elements */
+h1,
+h2 {
+  color: blue;
+}
+
+/* element selector */
+p {
+  color: purple;
+}
+
+/* this will override */
+p {
+  color: red;
+}
+
+.highlight {
+  text-transform: uppercase;
+  background-color: gold;
+}
+
+/* class selector always overrides element selector */
+.gray {
+  color: gray;
+}
+
+#second {
+  font-style: italic;
+}

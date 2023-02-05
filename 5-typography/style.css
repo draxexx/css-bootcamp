@@ -1,0 +1,22 @@
+body {
+  padding: 10%;
+  font-size: 2rem;
+}
+
+p {
+  /* text-decoration: line-through; */
+  text-transform: lowercase;
+  /* text-align: justify => aligns horizontally left and right side of the paragraph */
+  text-align: justify;
+  line-height: 1.5;
+  letter-spacing: 0.1em;
+  word-spacing: 0.1em;
+  /* if the computer has no first font-family, then looks second then third */
+  font-family: "Courier New", Courier, monospace;
+}
+
+input,
+button {
+  /* inherits font-size from the body */
+  font: inherit;
+}

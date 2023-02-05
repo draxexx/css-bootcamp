@@ -1,0 +1,29 @@
+body {
+  padding: 5% 10%;
+  font-size: 2rem;
+}
+
+/* ordered list */
+ol {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* unordered list */
+ul {
+  list-style-type: square;
+  list-style-position: outside;
+  /* list-style-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Eo_circle_green_checkmark.svg/1200px-Eo_circle_green_checkmark.svg.png"); */
+}
+
+/* nth-child(odd) => select only odd elements of the ul */
+ul li:nth-child(odd) {
+  color: red;
+}
+
+/* select marker */
+ul ::marker {
+  color: aqua;
+  /* content of the marker */
+  content: "##hey";
+}
